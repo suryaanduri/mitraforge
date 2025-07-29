@@ -17,27 +17,30 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="relative isolate min-h-screen bg-gradient-to-br from-[#FF6F00] via-[#1B2230] to-[#0C1B2A] text-white px-6 pt-32 pb-16 flex flex-col items-center justify-center text-center overflow-hidden">
-      <!-- Optional ambient circuit pattern overlay -->
-      <div class="absolute inset-0 bg-[url('/assets/circuit-bg.svg')] opacity-5 bg-cover bg-center z-0"></div>
+ <section class="relative isolate min-h-screen bg-gradient-to-br from-[#FF6F00] via-[#1B2230] to-[#0C1B2A] text-white px-6 pt-32 pb-16 overflow-hidden">
+  <!-- Optional ambient circuit pattern overlay -->
+  <div class="absolute inset-0 bg-[url('/assets/circuit-bg.svg')] opacity-5 bg-cover bg-center z-0"></div>
 
+  <div class="relative z-10 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    <!-- Left: Text Content -->
+    <div class="text-center md:text-left flex flex-col items-center md:items-start">
       <!-- Headline -->
-      <h1 class="text-5xl md:text-7xl font-extrabold font-poppins tracking-tight leading-tight z-10">
-        Mitra<span class="text-[#FFC300]">Forge</span>
+      <h1 class="text-5xl text-[#009BBE] md:text-7xl font-extrabold font-poppins tracking-tight leading-tight">
+        Mitra<span class="text-[#FC7D01]">Forge</span>
       </h1>
 
       <!-- Tagline -->
-      <p class="mt-4 text-xl max-w-2xl text-white/90 font-light z-10">
+      <p class="mt-4 text-xl max-w-2xl text-white/90 font-light">
         Where Ideas Ignite and Innovate
       </p>
 
       <!-- Subheadline -->
-      <p class="mt-2 max-w-xl text-base text-white/70 font-light z-10">
+      <p class="mt-2 max-w-xl text-base text-white/70 font-light">
         Full-stack innovation blending engineering, design, and cosmic insight.
       </p>
 
       <!-- CTA Buttons -->
-      <div class="mt-8 z-10 flex flex-col sm:flex-row gap-4">
+      <div class="mt-8 flex flex-col sm:flex-row gap-4">
         <a href="#solutions" class="inline-flex items-center justify-center px-6 py-3 bg-[#1380CE] hover:bg-[#0f6bb3] text-white font-semibold rounded-full shadow transition">
           Explore Solutions
         </a>
@@ -48,7 +51,14 @@
           Request Demo
         </a>
       </div>
-    </section>
+    </div>
+
+    <!-- Right: SVG Illustration -->
+    <div class="flex justify-center md:justify-end">
+      <img src="connected-world-animate.svg" alt="Collaboration Illustration" class="w-full max-w-md" />
+    </div>
+  </div>
+</section>
 
 
     <section id="solutions" class="relative bg-white text-[#0C1B2A] px-6 py-24">
